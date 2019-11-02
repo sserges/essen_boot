@@ -36,29 +36,29 @@
                   <fieldset>
                       <legend>Informations personnelles</legend>
                       <!--First Name-->
-                      <div class="form-group">
-                          <label for="fName">Votre prénom</label>
-                          <input type="text" name="fName" id="fName" class="form-control is-valid" placeholder="Votre prénom" />
+                      <div class="form-group row pr-3">
+                          <label for="fName" class="d-none d-md-block col-4">Votre prénom</label>
+                          <input type="text" name="fName" id="fName" class="form-control is-valid col-8" placeholder="Votre prénom" />
                           <div class="valid-feedback">OK !</div>
                         </div>
                       <!--End First Name-->
                       <!--Last Name-->
                       <div class="form-group">
-                          <label for="lName">Votre nom de famille</label>
+                          <label for="lName" class="d-none d-md-block">Votre nom de famille</label>
                           <input type="text" name="lName" id="lName" class="form-control is-invalid" placeholder="Votre nom de famille" />
                           <div class="invalid-feedback">Not OK !</div>
                       </div>
                       <!--End Last Name-->
                       <!--Email-->
                       <div class="form-group">
-                          <label for="email">Votre adresse email</label>
+                          <label class="d-none d-md-block" for="email">Votre adresse email</label>
                           <input type="email" name="email" id="email" class="form-control" placeholder="Votre adresse email" />
                           <small class="form-text text-muted">Nous ne partagerons pas votre adresse email avec des tiers.</small>
                       </div>
                       <!--End Email-->
                       <!--Country-->
                       <div class="form-group">
-                          <label for="country">Votre pays</label>
+                          <label class="d-none d-md-block" for="country">Votre pays</label>
                           <select name="country" id="country" class="form-control">
                               <option value="0">--Choisissez votre pays--</option>
                               <option value="BE">Belgique</option>
